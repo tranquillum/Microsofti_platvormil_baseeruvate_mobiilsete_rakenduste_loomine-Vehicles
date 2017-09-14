@@ -8,6 +8,9 @@ namespace Vehicles
 {
     class FighterPlane:Plane
     {
+        public int pilots { get; set; }
+        public string rocketType { get; set; }
+
         public void shootDownAnAirplane()
         {
             Console.WriteLine("shooting down anamys airplane");

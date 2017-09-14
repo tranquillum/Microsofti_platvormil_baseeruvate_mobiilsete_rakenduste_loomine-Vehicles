@@ -8,6 +8,8 @@ namespace Vehicles
 {
     class Plane: Vehicle
     {
+        public int stewardess { get; set; }
+        public int seats { get; set; }
         public void Fly()
         {
             Console.WriteLine("Flying in the sky");

@@ -8,6 +8,9 @@ namespace Vehicles
 {
     class Car: Vehicle
     {
+        public int tankTize { get; set; }
+        public int seatsAtTheBack { get; set; }
+
         public void twistTheWheel()
         {
             Console.WriteLine("twisting the wheel");

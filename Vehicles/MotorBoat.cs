@@ -8,6 +8,9 @@ namespace Vehicles
 {
     class MotorBoat:Boat
     {
+        public int veight { get; set; }
+        public string vopSpeed { get; set; }
+
         public void competeOnTheLake()
         {
             Console.WriteLine("Competing on the Lake");

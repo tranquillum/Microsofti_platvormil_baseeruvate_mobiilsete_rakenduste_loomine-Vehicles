@@ -8,6 +8,9 @@ namespace Vehicles
 {
     class SportCar:Car
     {
+        public string bestRace { get; set; }
+        public int topSpeed { get; set; }
+
         public void MotorRacing()
         {
             Console.WriteLine("participate in motor racing");
