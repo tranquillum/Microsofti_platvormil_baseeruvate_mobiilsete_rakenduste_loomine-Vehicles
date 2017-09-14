@@ -8,5 +8,15 @@ namespace Vehicles
 {
     class MotorBoat:Boat
     {
+        public void competeOnTheLake()
+        {
+            Console.WriteLine("Competing on the Lake");
+        }
+
+        public void quicklyMoveOnEater()
+        {
+            Console.WriteLine("quickly moving on water");
+        }
+
     }
 }

@@ -8,5 +8,15 @@ namespace Vehicles
 {
     class Boat:Vehicle
     {
+        public void stanInACove()
+        {
+            Console.WriteLine("standing in a cove");
+
+        }
+        public void keepOnWater()
+        {
+            Console.WriteLine("keeping on water");
+
+        }
     }
 }

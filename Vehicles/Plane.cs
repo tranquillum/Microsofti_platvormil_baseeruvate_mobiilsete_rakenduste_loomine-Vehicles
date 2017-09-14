@@ -8,5 +8,15 @@ namespace Vehicles
 {
     class Plane: Vehicle
     {
+        public void Fly()
+        {
+            Console.WriteLine("Flying in the sky");
+
+        }
+        public void useAutopilot()
+        {
+            Console.WriteLine("using autopilot");
+
+        }
     }
 }

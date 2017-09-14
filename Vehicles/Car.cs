@@ -8,5 +8,17 @@ namespace Vehicles
 {
     class Car: Vehicle
     {
+        public void twistTheWheel()
+        {
+            Console.WriteLine("twisting the wheel");
+
+        }
+
+
+        public void RideOnTheRoad()
+        {
+            Console.WriteLine("riding on the road");
+
+        }
     }
 }

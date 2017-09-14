@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Vehicles
 {
-    class RowingBoat:Boat
+    class RowingBoat : Boat
     {
+        public void useTheOars()
+        {
+            Console.WriteLine("using the oars to move");
+
+        }
+
+        public void drestOnTheWater()
+        {
+            Console.WriteLine("resting on the water");
+
+        }
+
     }
 }
