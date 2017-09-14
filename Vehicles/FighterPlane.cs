@@ -18,5 +18,11 @@ namespace Vehicles
             Console.WriteLine("flying over sound speed");
 
         }
+
+
+        public override void startEngine(int fromWhatAttempt)
+        {
+            Console.WriteLine("Started on the {0} try", fromWhatAttempt);
+        }
     }
 }
