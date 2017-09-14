@@ -9,7 +9,7 @@ namespace Vehicles
     class Bike:Motocycle
     {
         public string wkeelsType { get; set; }
-        public int topSpeed { get; set; }
+        public int bestSpeed { get; set; }
 
         public void fastRideTwoWheels()
         {

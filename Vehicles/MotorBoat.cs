@@ -8,8 +8,8 @@ namespace Vehicles
 {
     class MotorBoat:Boat
     {
-        public int veight { get; set; }
-        public string vopSpeed { get; set; }
+        public int tankTize { get; set; }
+        public string topSpeed { get; set; }
 
         public void competeOnTheLake()
         {
